@@ -1,1 +1,50 @@
-
+*{
+    margin:0;
+    padding:0;
+    border:border-box;
+}
+body{
+    background-color:#efc3e6;
+}
+.header{
+    margin-top: 50px;
+    line-height: 70px;
+}
+.wish{
+    font-size: 200px;
+    color:#9c89b8;
+    padding: 50px;
+    text-align: center;
+}
+.ask{
+    font-size: 50px;
+    color:#1a759f;
+    padding:50px;
+    text-align: center;
+}
+.gif-container{
+    margin-left: 600px;
+}
+.container{
+    height: 100px;
+    width: 1300px;
+    padding:50px;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    margin:5px;
+    font-size: 20px;
+    color:#d8e2dc;
+    background-color: #4a4e69;
+    height:50px;
+    width:80px;
+}
+#yesButton:hover{
+    background-color:#8da9c4;
+    color:#eef4ed;
+}
+#noButton:hover{
+    background-color:#8da9c4;
+    color:#eef4ed;
+}
